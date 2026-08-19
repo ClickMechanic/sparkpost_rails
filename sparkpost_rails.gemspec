@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["{spec}/**/*"]
 
   %w[actionmailer railties].each do |rails_gem|
-    s.add_dependency rails_gem, '>= 4.0', '< 8.0'
+    s.add_dependency rails_gem, '>= 4.0', '< 9.0'
   end
 
   s.add_development_dependency "rspec", '>= 3.4.0'
